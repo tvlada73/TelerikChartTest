@@ -31,13 +31,13 @@
     <AppXManifest Include="e:\Documents\Visual Studio 2017\Projects\TelerikChartTest\TelerikChartTest\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-06-03T02:42:18.971</Modified>
+      <Modified>2018-06-03T12:40:05.912</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="e:\Documents\Visual Studio 2017\Projects\TelerikChartTest\TelerikChartTest\bin\x86\Debug\TelerikChartTest.exe">
       <PackagePath>entrypoint\TelerikChartTest.exe</PackagePath>
-      <Modified>2018-06-03T02:42:16.853</Modified>
+      <Modified>2018-06-03T12:40:04.744</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Vlada\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.0\lib\uap10.0\Microsoft.Xaml.Interactions.dll">
       <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
@@ -795,51 +795,51 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="e:\Documents\Visual Studio 2017\Projects\TelerikChartTest\TelerikChartTest\bin\x86\Debug\TelerikChartTest.xr.xml">
       <PackagePath>TelerikChartTest.xr.xml</PackagePath>
-      <Modified>2018-06-03T02:42:16.047</Modified>
+      <Modified>2018-06-03T12:04:19.432</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="e:\Documents\Visual Studio 2017\Projects\TelerikChartTest\TelerikChartTest\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-06-03T02:42:16.329</Modified>
+      <Modified>2018-06-03T12:40:04.269</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="e:\Documents\Visual Studio 2017\Projects\TelerikChartTest\TelerikChartTest\bin\x86\Debug\Controls\ChartUC.xbf">
       <PackagePath>Controls\ChartUC.xbf</PackagePath>
-      <Modified>2018-06-03T02:42:16.330</Modified>
+      <Modified>2018-06-03T12:40:04.270</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="e:\Documents\Visual Studio 2017\Projects\TelerikChartTest\TelerikChartTest\bin\x86\Debug\Styles\Page.xbf">
       <PackagePath>Styles\Page.xbf</PackagePath>
-      <Modified>2018-06-03T02:42:16.325</Modified>
+      <Modified>2018-06-03T12:40:04.266</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="e:\Documents\Visual Studio 2017\Projects\TelerikChartTest\TelerikChartTest\bin\x86\Debug\Styles\_Colors.xbf">
       <PackagePath>Styles\_Colors.xbf</PackagePath>
-      <Modified>2018-06-03T02:42:16.326</Modified>
+      <Modified>2018-06-03T12:40:04.267</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="e:\Documents\Visual Studio 2017\Projects\TelerikChartTest\TelerikChartTest\bin\x86\Debug\Styles\_FontSizes.xbf">
       <PackagePath>Styles\_FontSizes.xbf</PackagePath>
-      <Modified>2018-06-03T02:42:16.327</Modified>
+      <Modified>2018-06-03T12:40:04.267</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="e:\Documents\Visual Studio 2017\Projects\TelerikChartTest\TelerikChartTest\bin\x86\Debug\Styles\_Thickness.xbf">
       <PackagePath>Styles\_Thickness.xbf</PackagePath>
-      <Modified>2018-06-03T02:42:16.328</Modified>
+      <Modified>2018-06-03T12:40:04.268</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="e:\Documents\Visual Studio 2017\Projects\TelerikChartTest\TelerikChartTest\bin\x86\Debug\Styles\TextBlock.xbf">
       <PackagePath>Styles\TextBlock.xbf</PackagePath>
-      <Modified>2018-06-03T02:42:16.329</Modified>
+      <Modified>2018-06-03T12:40:04.268</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="e:\Documents\Visual Studio 2017\Projects\TelerikChartTest\TelerikChartTest\bin\x86\Debug\Views\ChartPage.xbf">
       <PackagePath>Views\ChartPage.xbf</PackagePath>
-      <Modified>2018-06-03T02:42:16.330</Modified>
+      <Modified>2018-06-03T12:40:04.270</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="e:\Documents\Visual Studio 2017\Projects\TelerikChartTest\TelerikChartTest\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2018-06-03T02:42:16.331</Modified>
+      <Modified>2018-06-03T12:40:04.271</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="e:\Documents\Visual Studio 2017\Projects\TelerikChartTest\TelerikChartTest\bin\x86\Debug\Views\SettingsPage.xbf">
       <PackagePath>Views\SettingsPage.xbf</PackagePath>
-      <Modified>2018-06-03T02:42:16.332</Modified>
+      <Modified>2018-06-03T12:40:04.272</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="e:\Documents\Visual Studio 2017\Projects\TelerikChartTest\TelerikChartTest\bin\x86\Debug\Views\ShellPage.xbf">
       <PackagePath>Views\ShellPage.xbf</PackagePath>
-      <Modified>2018-06-03T02:42:16.332</Modified>
+      <Modified>2018-06-03T12:40:04.272</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -1188,11 +1188,11 @@
     <AppxPackagedFile Include="e:\Documents\Visual Studio 2017\Projects\TelerikChartTest\TelerikChartTest\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-06-02T23:59:40.947</Modified>
+      <Modified>2018-06-03T12:06:07.671</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="e:\Documents\Visual Studio 2017\Projects\TelerikChartTest\TelerikChartTest\bin\x86\Debug\Core\TelerikChartTest.exe">
       <PackagePath>TelerikChartTest.exe</PackagePath>
-      <Modified>2018-06-03T02:42:18.963</Modified>
+      <Modified>2018-06-03T12:40:05.908</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

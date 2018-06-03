@@ -58,40 +58,40 @@ namespace TelerikChartTest.Controls
             CartesianGridLineAnnotation myLineAnnotation = new CartesianGridLineAnnotation
             {
                 Axis = Chart.HorizontalAxis,
-                Value = ChartEventItems[ChartEventItems.Count-1].EventStart,
+                Value = ChartEventItems[ChartEventItems.Count - 1].EventStart,
                 Stroke = new SolidColorBrush(Windows.UI.Colors.Red)
             };
 
             Chart.Annotations.Add(myLineAnnotation);
 
-            var newKLMLabel = new CartesianCustomAnnotation
+            var newLabel = new CartesianCustomAnnotation
             {
-                HorizontalAxis = Chart.HorizontalAxis,
-                VerticalAxis = Chart.VerticalAxis
+                HorizontalAxis = horizontalAxis,
+                VerticalAxis = verticalAxis
             };
 
             var border = new Border
             {
-                //CornerRadius = new CornerRadius(4),
-
                 //Background = new SolidColorBrush(Windows.UI.Colors.Gray),
+                VerticalAlignment = VerticalAlignment.Top,
                 Opacity = 0.9
             };
 
             var content = new TextBlock
             {
-                Text = ChartEventItems[ChartEventItems.Count-1].EventDescription
+                Text = ChartEventItems[ChartEventItems.Count - 1].EventDescription
             };
             border.Child = content;
-            newKLMLabel.Content = border;
-            newKLMLabel.HorizontalValue = ChartEventItems[ChartEventItems.Count - 1].EventStart;
+            newLabel.Content = border;
+            newLabel.HorizontalValue = ChartEventItems[ChartEventItems.Count - 1].EventStart;
 
-            newKLMLabel.HorizontalAlignment = HorizontalAlignment.Center;
-            newKLMLabel.VerticalValue = ChartEventItems[ChartEventItems.Count-1].Value;
-            newKLMLabel.Tag = "klmlabel";
-            newKLMLabel.Visibility = Visibility.Visible;
-
-            Chart.Annotations.Add(newKLMLabel);
+            newLabel.HorizontalAlignment = HorizontalAlignment.Left;
+            newLabel.VerticalAlignment = VerticalAlignment.Top;
+            newLabel.VerticalValue = 80d;                          // Position on Y axis
+            newLabel.Tag = "label";
+            newLabel.Visibility = Visibility.Visible;
+            newLabel.ClipToPlotArea = false;
+            Chart.Annotations.Add(newLabel);
         }
 
         private void ChartTrackBallBehavior_TrackInfoUpdated(object sender, Telerik.UI.Xaml.Controls.Chart.TrackBallInfoEventArgs e)
@@ -100,20 +100,14 @@ namespace TelerikChartTest.Controls
             ViewModel.UpdateValues(e.Context);
         }
 
-
         int AddedAnnotations = 0;
 
-
-        private void SplineAreaSeries_LayoutUpdated(object sender, object e)
+        private void Chart_LayoutUpdated(object sender, object e)
         {
-            Debug.WriteLine("ChartEventItems.Count => " + ChartEventItems.Count);
-
             if (ChartEventItems.Count > AddedAnnotations)
             {
                 AddedAnnotations = ++AddedAnnotations;
-                Debug.WriteLine("ChartEventItems.Count => " + ChartEventItems.Count);
                 UpdateChartAnnotation();
-                
             }
         }
     }

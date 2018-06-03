@@ -26,7 +26,7 @@ namespace TelerikChartTest.ViewModels
 
         internal void AddToChart()
         {
-            Data.Add(new ChartModel { ProcesTime = new DateTime(2017, 1, 1, hh, min, 0), Value = GetRandomNumber(20, 90) });
+            Data.Add(new ChartModel { ProcesTime = new DateTime(2017, 1, 1, hh, min, 0), Value = GetRandomNumber(20, 80) });
 
             min = ++min;
             if (min == 60)

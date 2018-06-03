@@ -48,7 +48,7 @@
             <TextBlock Text="{x:Bind ViewModel.AvValue, Mode=OneWay}" FontSize="12" Foreground="#FF1E98E4"/>
         </StackPanel>
 
-        <telerikChart:RadCartesianChart  x:Name="Chart" Grid.Row="2" ClipToBounds="False" Margin="0 0 0 50"  >
+        <telerikChart:RadCartesianChart LayoutUpdated="Chart_LayoutUpdated" x:Name="Chart" Grid.Row="2" ClipToBounds="False" Margin="0 0 0 50"  >
 
             <telerikChart:RadCartesianChart.Behaviors>
                 <telerikChart:ChartPanAndZoomBehavior PanMode="None" ZoomMode="Horizontal"/>
@@ -81,16 +81,16 @@
                 <telerikChart:CartesianChartGrid MajorLinesVisibility="Y"></telerikChart:CartesianChartGrid>
             </telerikChart:RadCartesianChart.Grid>
 
-            <telerikChart:SplineSeries  LayoutUpdated="SplineAreaSeries_LayoutUpdated" ItemsSource="{x:Bind ChartItems, Mode=OneWay}" Transitions="{x:Null}"
+            <telerikChart:SplineAreaSeries ItemsSource="{x:Bind ChartItems, Mode=OneWay}" Transitions="{x:Null}"
                                      telerikChart:ChartTrackBallBehavior.TrackInfoTemplate="{StaticResource EmptyTemplate}" 
                                      telerikChart:ChartTrackBallBehavior.IntersectionTemplate="{StaticResource IntersectionPointTemplate}">
-                <telerikChart:SplineSeries.ValueBinding>
+                <telerikChart:SplineAreaSeries.ValueBinding>
                     <telerikChart:PropertyNameDataPointBinding PropertyName="Value"/>
-                </telerikChart:SplineSeries.ValueBinding>
-                <telerikChart:SplineSeries.CategoryBinding>
+                </telerikChart:SplineAreaSeries.ValueBinding>
+                <telerikChart:SplineAreaSeries.CategoryBinding>
                     <telerikChart:PropertyNameDataPointBinding PropertyName="ProcesTime"/>
-                </telerikChart:SplineSeries.CategoryBinding>
-            </telerikChart:SplineSeries>
+                </telerikChart:SplineAreaSeries.CategoryBinding>
+            </telerikChart:SplineAreaSeries>
 
                 <!--MovingAverage-->
 
