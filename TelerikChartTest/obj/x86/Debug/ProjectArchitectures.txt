@@ -1,0 +1,1 @@
+e:\Documents\Visual Studio 2017\Projects\TelerikChartTest\TelerikChartTest\TelerikChartTest.csproj;x86
