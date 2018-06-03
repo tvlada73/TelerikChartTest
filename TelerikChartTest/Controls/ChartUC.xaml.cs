@@ -1,22 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Diagnostics;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
+﻿using System.Collections.ObjectModel;
 using Telerik.UI.Xaml.Controls.Chart;
 using TelerikChartTest.Models;
 using TelerikChartTest.ViewModels;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
 
 namespace TelerikChartTest.Controls
 {
@@ -52,6 +40,7 @@ namespace TelerikChartTest.Controls
         }
         public static readonly DependencyProperty ChartEventProperty = DependencyProperty.Register("ChartEvents", typeof(ObservableCollection<ChartEvent>), typeof(ChartUC), new PropertyMetadata(null));
 
+        private int AddedAnnotations = 0;
 
         private void UpdateChartAnnotation()
         {
@@ -99,8 +88,6 @@ namespace TelerikChartTest.Controls
             ViewModel.TrackBallContext = e.Context;
             ViewModel.UpdateValues(e.Context);
         }
-
-        int AddedAnnotations = 0;
 
         private void Chart_LayoutUpdated(object sender, object e)
         {

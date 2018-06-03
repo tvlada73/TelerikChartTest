@@ -40,8 +40,6 @@ namespace TelerikChartTest.ViewModels
         int min = 0;
 
 
-
-
         public double GetRandomNumber(double minimum, double maximum)
         {
             Random random = new Random();

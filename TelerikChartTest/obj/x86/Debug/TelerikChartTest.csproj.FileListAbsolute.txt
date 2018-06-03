@@ -363,3 +363,4 @@ e:\Documents\Visual Studio 2017\Projects\TelerikChartTest\TelerikChartTest\obj\x
 e:\Documents\Visual Studio 2017\Projects\TelerikChartTest\TelerikChartTest\obj\x86\Debug\Telerik.UI.Xaml.Input.UWP.pri.xml
 e:\Documents\Visual Studio 2017\Projects\TelerikChartTest\TelerikChartTest\obj\x86\Debug\Telerik.UI.Xaml.Primitives.UWP.pri.xml
 e:\Documents\Visual Studio 2017\Projects\TelerikChartTest\TelerikChartTest\obj\x86\Debug\ProjectArchitectures.txt
+e:\Documents\Visual Studio 2017\Projects\TelerikChartTest\TelerikChartTest\obj\x86\Debug\TelerikChartTest.csprojAssemblyReference.cache
