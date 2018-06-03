@@ -11,7 +11,7 @@ namespace TelerikChartTest.Services
     public static class ChartService
     {
 
-        //TODO: Ne znam dal ce se morati menjati za svaki chart???
+        //TODO: Glupi data
         public static ObservableCollection<ChartModel> GetThredLine()
         {
             var data = new ObservableCollection<ChartModel>();
